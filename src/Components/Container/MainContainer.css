@@ -1,0 +1,130 @@
+.mainContainer {
+    width: 100%;
+    height: calc(100% - 56px);
+    display: flex;
+   
+    padding: 20px 0;
+    
+}
+
+.mainContainer .left {
+    width: 1000px;
+}
+
+.mainContainer .left .banner{
+    width: 900px;
+    height: 354px;  
+    
+    
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainContainer .left .textContainer{
+    gap: 24px;
+}
+.mainContainer .left .textContainer h1{
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    font-family: "DM Sans";
+    width: 536px;
+    height: 130px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    
+}
+
+.mainContainer .left .textContainer button{
+    margin-left: 20px;
+}
+.mainContainer .right {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left: 50px;
+   
+}
+
+.mainContainer .right .item{
+    width: 50%;
+    
+    
+}
+
+.mainContainer .right .ranking{
+    margin-top: 50px;
+}
+ .fil {
+    width: 900px;
+    height: calc(100% - 56px);
+    
+    
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card .filters .filters-title{
+
+    width: 300px;
+    height: 31px;
+
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+
+    /* Text/color1 */
+
+    color: #27262E;
+    
+}
+
+.card .filter-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card .filter-button .fil-button {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7A797D;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 15px;
+
+}
+
+.card .filter-button .fil-button:hover{
+    background: rgba(84, 41, 255, 0.1);;
+    color: #5429FF;
+}
+
+.auc-element{
+    width: 900px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.ranking{
+
+}
+
